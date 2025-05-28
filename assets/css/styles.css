@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5ab1bb;
+}
+
+/* CSS HEX */
+
+:root {
+  /* Primary and Secondary Colors */
+  --color-primary: #5ab1bb;     /*moonstone */
+  --color-secondary: #4e6766;     /*feldgrau */
+
+
+  /* Additional Palette */
+  --dark-purple: #1e152a;
+  --jasmine: #f7dd72;   /* jasmine */
+  --pistachio: #a5c882;
+}
+
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+header {
+    padding: 40px 0;
+    background: linear-gradient(#5ab1bb, #4e6766);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* CTA Button */
+.btn-primary {
+    background-color: #a5c882;  /* Warm inviting color */
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff9800;
+}
+
+/* Cards Section */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #1e152a;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
