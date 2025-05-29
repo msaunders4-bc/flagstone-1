@@ -1,6 +1,11 @@
+
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* General Styles */
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background-color: #ffffff;
 }
 
