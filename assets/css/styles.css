@@ -53,7 +53,7 @@ header {
 }
 
 .btn-primary:hover {
-    background-color: #ff9800;
+    background-color: var(--jasmine);
 }
 
 /* Principles Section */
