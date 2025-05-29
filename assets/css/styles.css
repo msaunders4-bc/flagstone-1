@@ -1,12 +1,12 @@
-
 /* Global styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* General Styles */
 body {
     font-family: "Noto Sans", sans-serif;
     background-color: #ffffff;
+    margin: 0;
 }
 
 /* CSS HEX */
@@ -29,7 +29,7 @@ body {
 
 /* Hero Section */
 header {
-    padding: 40px 0;
+    padding: 20px 0;
     background: url(../images/pexels-fauxels-3184434.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,24 +58,41 @@ header {
 
 /* Cards Section */
 .card {
+    height: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    max-width: 50%;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
 /* Footer */
 footer {
-    background-color: #1e152a;
+    background-color: var (var(--dark-purple));
     color: white;
     padding: 20px;
     margin-top: auto;
 }
 
 footer a {
-    color: #ffc107;
+    color: var(--jasmine);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #ff9800;
+    color: var(--pistachio);
     text-decoration: underline;
 }
