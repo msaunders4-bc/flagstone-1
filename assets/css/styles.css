@@ -56,7 +56,11 @@ header {
     background-color: #ff9800;
 }
 
-/* Cards Section */
+/* Principles Section */
+
+
+
+/* Implement change Section */
 .card {
     height: 100%;
     border-radius: 8px;
@@ -81,7 +85,7 @@ header {
 
 /* Footer */
 footer {
-    background-color: var (var(--dark-purple));
+    background-color: var(--dark-purple);
     color: white;
     padding: 20px;
     margin-top: auto;
