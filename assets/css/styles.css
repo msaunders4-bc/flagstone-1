@@ -57,8 +57,10 @@ header {
 }
 
 /* Principles Section */
-
-
+#principles .card {
+    background-color: var(--dark-purple);
+    color: white;
+}
 
 /* Implement change Section */
 .card {
