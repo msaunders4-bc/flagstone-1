@@ -85,6 +85,19 @@ header {
   object-fit: cover;
 }
 
+/* at-work page */
+
+#at-work-header {
+    background-image: url(../images/change_at_work.jpg);
+}
+
+#at-work-header .hero-text {
+    color: whitesmoke;
+    background-color: var(--pistachio);
+    padding: 2%;
+    display: inline-block;
+}
+
 /* Footer */
 footer {
     background-color: var(--dark-purple);
