@@ -116,6 +116,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.social-links a {
+    padding-right: 20px;
+}
+
+.copywrite {
+    margin-top: 3rem;
+    text-align: center;
+}
+
 
 /* Registration form page */
 
