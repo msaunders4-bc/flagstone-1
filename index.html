@@ -19,20 +19,20 @@
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#index.html">D&I Assist</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">D&I Assist</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#principles">D&I Principles</a></li>
                     <li class="nav-item"><a class="nav-link" href="#hints-tips">Hints & Tips</a></li>
                     <li class="nav-item"><a class="nav-link" href="registration-form.html">2025 White Paper</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -53,7 +53,7 @@
         <!-- Our work Section -->
         <section class="container my-2 our-work">
             <h2 class="text-center mb-4">Our Work</h2>
-            <div class="row align-items-center">
+            <div class="row d-flex align-items-start">
                 <div class="col-12 col-md-6">
                     <p class="mt-4">Diversity and Inclusion (D&I) are essential for fostering innovation,
                         creativity, and a sense of belonging in any community.</p>
@@ -62,7 +62,7 @@
                 </div>
                 <!-- Carousel -->
                 <div class="col-12 col-md-6">
-                    <div id="carouselExample" class="carousel slide">
+                    <div id="work-carousel" class="work-carousel-slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="assets/images/pexels-divinetechygirl-1181396.jpg" class="d-block w-100"
@@ -100,7 +100,7 @@
                 <div class="col-12 col-md-6 d-flex">
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
-                            <h4 class="card-title">1. Lead with listening</h4>
+                            <h5 class="card-title">1. Lead with listening</h5>
                             <p class="card-text">Effective inclusion begins with understanding.
                                 Create regular, safe opportunities to hear directly from underrepresented voices—then
                                 act on what you learn. .</p>
@@ -111,7 +111,7 @@
                 <div class="col-12 col-md-6 d-flex">
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
-                            <h4 class="card-title">2. Not a side project</h4>
+                            <h5 class="card-title">2. Not a side project</h5>
                             <p class="card-text">D&I is not a side project—it should inform how you recruit, teach,
                                 promote, plan, and lead. Align policies
                                 and practices to create fair, accessible outcomes for all.</p>
@@ -122,7 +122,7 @@
                 <div class="col-12 col-md-6 d-flex">
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
-                            <h4 class="card-title">3. Make things actionable</h4>
+                            <h5 class="card-title">3. Make things actionable</h5>
                             <p class="card-text">Intent is not impact. Translate your D&I values into clear
                                 actions with defined goals, timelines, and success metrics.</p>
 
@@ -132,7 +132,7 @@
                 <div class="col-12 col-md-6 d-flex">
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
-                            <h4 class="card-title">4. Celebrate diversity</h4>
+                            <h5 class="card-title">4. Celebrate diversity</h5>
                             <p class="card-text">Representation matters—but it is only the beginning.
                                 Foster environments where people of all identities feel respected,
                                 empowered, and connected.
@@ -186,18 +186,18 @@
                     get you started.
                 </p>
                 <ul class="list-group text-start">
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Clear policies and action plans</strong>Develop comprehensive policies 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Clear policies and action plans.</strong> Develop comprehensive policies 
                         that outline your commitment to equality, diversity, and inclusion.</li>
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Provide ongoing training</strong>Implement regular training sessions focusing 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Provide ongoing training.</strong> Implement regular training sessions focusing 
                         on unconscious bias, cultural competency, and inclusive practices.</li>
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Conduct Pay Equity Reviews</strong>Regularly assess compensation 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Conduct Pay Equity Reviews.</strong> Regularly assess compensation 
                         structures to identify and address any disparities.</li>
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Foster Inclusive Leadership</strong>Leaders should model inclusive behavior, actively 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Foster Inclusive Leadership.</strong> Leaders should model inclusive behavior, actively 
                         listen to diverse perspectives, and be accountable for D&I outcomes.</li>
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Offer Flexible Work and Learning Arrangements</strong>Provide options such as 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Offer Flexible Work and Learning Arrangements.</strong> Provide options such as 
                         flexible hours or remote work to accommodate diverse needs, 
                         including caregiving responsibilities or religious practices.</li>
-                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Inclusive Recruitment Practices</strong>Use inclusive language in job postings, diversify recruitment channels, 
+                    <li class="list-group-item"><strong><i class="fa-solid fa-square-check me-1"></i>Inclusive Recruitment Practices.</strong> Use inclusive language in job postings, diversify recruitment channels, 
                         and consider blind application reviews to minimize bias.</li>
                 </ul>
             </div>

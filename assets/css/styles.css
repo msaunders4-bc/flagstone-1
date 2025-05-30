@@ -6,7 +6,6 @@
 body {
     font-family: "Noto Sans", sans-serif;
     background-color: #ffffff;
-    margin: 0;
 }
 
 /* CSS HEX */
@@ -37,10 +36,11 @@ header {
 }
 
 .hero-text {
+    display: flex;
     color: whitesmoke;
     background-color: var(--dark-purple);
     padding: 2%;
-    display: inline-block;
+    flex-direction: column;
 }
 
 /* CTA Button */
@@ -54,6 +54,10 @@ header {
 
 .btn-primary:hover {
     background-color: var(--jasmine);
+}
+
+/* Our work Section */
+#carouselExample {
 }
 
 /* Principles Section */
@@ -117,4 +121,26 @@ footer a:hover {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+
+
+/* Media Queries [placeholder]
+
+
+/* Smaller screen sizes - min width 576px * 
+
+@media (min-width: 576px) {
+    .work-carousel {
+        max-height: 80%;
+    }
+}
+
+/* Medium screen sizes - min width 768px *
+
+@media (min-width: 768px) {
+    .carousel.inner {
+        max-height: 60%;
+    }
+}
+
 
