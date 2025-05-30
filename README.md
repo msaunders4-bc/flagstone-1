@@ -4,34 +4,35 @@ This website has been created to fulfill the project brief for Code Institute's 
 The live link can be found here: [D&I Assist](https://msaunders4-bc.github.io/flagstone-1/index.html#index.html)
 
 ## __Description__
-N-clude is a fully responsive static HTML and CSS website designed to provide a basic understanding of diversity and inclusion, along with guidance on implementing changes in the workplace or educational settings.
+D&I Assist is a fully responsive static HTML and CSS website designed to provide a basic understanding of diversity and inclusion, along with guidance on implementing changes in the workplace or educational settings.
 
 ### __Technologies Used__
--HTML
--CSS
+- HTML
+- CSS
 
 
 - __Users__:
--Work roles related to D&I
--Managers, Senior team members
--Educators
+- Work roles related to D&I
+- Managers, Senior team members
+- Educators
 
 
 -__Primary User Journeys__
-User can read and understand further information on D&I best practices
-User can see quick hints and tips for better D&I processes
-User can register for D&I White Paper (value acquisition tool)
+- User can read and understand further information on D&I best practices
+- User can see quick hints and tips for better D&I processes
+- User can register for D&I White Paper (value acquisition tool)
 
 ## __Wireframes__
 Some basic wireframes were created to help visualise the final product. Both mobile and desktop wireframes were developed.
 
-## __Detailed user stories with acceptance criteria__
-
-Can be found in the project board here: [Project Board](https://github.com/users/msaunders4-bc/projects/3)
-
 <img>
 
 ![Wireframe](/assets/images/Flagstone-Wirefram_2.png) !
+
+
+## __Detailed user stories with acceptance criteria__
+
+Can be found in the project board here: [Project Board](https://github.com/users/msaunders4-bc/projects/3)
 
 ---
 
