@@ -45,7 +45,8 @@ header {
 
 /* CTA Button */
 .btn-primary {
-    background-color: #a5c882; /* Warm inviting color */
+    background-color: var(--pistachio); /* Warm inviting color */
+    color: var(--dark-purple);
     border: none;
     padding: 12px 20px;
     font-size: 1.2rem;

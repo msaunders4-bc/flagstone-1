@@ -41,7 +41,7 @@ AI played its part in the development of this project. Here are some ways AI was
 - __Code Generation__
     - AI tools co-pilot and chatGPT were used for help when needing to debug the website. Some code snippets were used from VS code co-pilot recommendations.
 
-    
+
 	
 
 
@@ -58,15 +58,13 @@ AI played its part in the development of this project. Here are some ways AI was
 
 ### __Code Validation__
 
-All HTML and CSS code was validated using the W3C Markup Validation Service and W3C CSS Validation Service, respectively. The results are as follows:
+All HTML and CSS code was validated using the W3C Markup Validation Service and W3C CSS Validation Service. The results are as follows:
 
 __HTML Validation:__
-- Two errors were found in the HTML code. All elements are properly nested and closed, ensuring a well-structured document.
-
-![HTML Validation](/assets/images/HTMLvalidation.png)
+- One error was found in the HTML code, an unneccessary aria-label on the carousel.
 
 __CSS Validation:__
-- No errors were found in the CSS code. All styles are correctly applied, and there are no syntax errors.
+- No errors were found in the CSS code.
 
 ### __Lighthouse Testing__
 
