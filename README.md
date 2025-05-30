@@ -25,6 +25,10 @@ User can register for D&I White Paper (value acquisition tool)
 ## __Wireframes__
 Some basic wireframes were created to help visualise the final product. Both mobile and desktop wireframes were developed.
 
+## __Detailed user stories with acceptance criteria__
+
+Can be found in the project board here: [Project Board](https://github.com/users/msaunders4-bc/projects/3)
+
 <img>
 
 ![Wireframe](/assets/images/Flagstone-Wirefram_2.png) !
@@ -51,8 +55,12 @@ AI played its part in the development of this project. Here are some ways AI was
 ## __Colour Palette and Imagery__
 ![Colour palette](/assets/images/Flagstone1-colour%20palette.png) !
 
-### __Features left to Implement__
+Images are all stock images free to downloaded and use from [Pexels](https://www.pexels.com/)
 
+### __Features left to Implement__
+ - Should Have: multilingual capability - as this is a Inclusion focussed site
+ - Could Have: Intro video on the main page
+ 
 
 ## __Testing__
 
@@ -68,18 +76,18 @@ __CSS Validation:__
 
 ### __Lighthouse Testing__
 
-Lighthouse was used to test the performance, accessibility, best practices, and SEO of the website. The results are as follows:
+Lighthouse was used to test the performance and accessibility. The results are as follows:
 
 __Index.html:__
     - Performance impacted by image sizes.
 
-![Lighthouse Report](/assets/images/lighthouse-index.png)
+![Lighthouse Report](/assets/images/xxx)
 
 __Success.html:__
 
-![Lighthouse Report](/assets/images/lighthouse-success.png)
+![Lighthouse Report](/assets/images/xxx)
 
-- Accessibility scores show that it is highly accessible to users with disabilities. Minor improvements can be made by ensuring all interactive elements are keyboard accessible.
+- Accessibility scores show that...
 
 ## __Deployment__
 
