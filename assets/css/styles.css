@@ -56,8 +56,9 @@ header {
     background-color: var(--jasmine);
 }
 
-/* Our work Section */
-#carouselExample {
+/* Our work Section *
+.carousel-inner {
+    max-height: 300px;
 }
 
 /* Principles Section */
