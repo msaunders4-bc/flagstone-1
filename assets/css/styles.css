@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Global styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
@@ -23,7 +30,8 @@ body {
 
 /* Navbar Styling */
 .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Hero Section */
@@ -36,11 +44,16 @@ header {
 }
 
 .hero-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: whitesmoke;
     background-color: var(--dark-purple);
     padding: 2%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 /* CTA Button */
@@ -50,6 +63,8 @@ header {
     border: none;
     padding: 12px 20px;
     font-size: 1.2rem;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
 
@@ -68,17 +83,29 @@ header {
     color: white;
 }
 
+#principles h5 {
+    color:var(--jasmine)
+}
+
 /* Implement change Section */
 .card {
     height: 100%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-body {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .card-body .btn {
@@ -88,7 +115,8 @@ header {
 
 .card-img-top {
   height: 200px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Hints and tips */
@@ -135,23 +163,9 @@ footer a:hover {
 
 
 
-/* Media Queries [placeholder]
 
 
-/* Smaller screen sizes - min width 576px * 
 
-@media (min-width: 576px) {
-    .work-carousel {
-        max-height: 80%;
-    }
-}
 
-/* Medium screen sizes - min width 768px *
-
-@media (min-width: 768px) {
-    .carousel.inner {
-        max-height: 60%;
-    }
-}
 
 
