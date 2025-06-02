@@ -11,13 +11,13 @@ D&I Assist is a fully responsive static HTML and CSS website designed to provide
 - CSS
 
 
-- __Users__:
+### __Primary Users__
 - Work roles related to D&I
 - Managers, Senior team members
 - Educators
 
 
--__Primary User Journeys__
+__Primary User Journeys__
 - User can read and understand further information on D&I best practices
 - User can see quick hints and tips for better D&I processes
 - User can register for D&I White Paper (value acquisition tool)
@@ -50,8 +50,11 @@ AI played its part in the development of this project. Here are some ways AI was
 	
 
 
-## __Features of the website__
-
+## __Core Features of the website__
+ - Scrollable main page alolowing a user to find relevant information on D&I overall including key principles and hints&tips
+ - Cards for each D&I product - work place and schools - allowing a user to action and find more information on a specific product in a new page
+ - Easy registratiion form, used alongside a value acquisition tool being a whitepaper, allowing a user to register their details in return for the doc.
+ - Contact and social links clear for any follow-up or to keep up to date
 
 ## __Colour Palette and Imagery__
 ![Colour palette](/assets/images/Flagstone1-colour%20palette.png) !
