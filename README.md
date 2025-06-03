@@ -83,6 +83,7 @@ AI played its part in the development of this project. Here are some ways AI was
 
 
 ### __Features left to Implement__
+ - Should Have: Centre align Header content on screens >1200px
  - Should Have: imagery on the secondary pages - at-work and at-school
  - Should Have: multilingual capability - as this is a Inclusion focussed site
  - Could Have: Intro video on the main page
